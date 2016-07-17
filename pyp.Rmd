@@ -1,0 +1,55 @@
+---
+title: "pyp"
+author: "Kamila Kolpashnikova"
+date: "July 17, 2016"
+output: html_document
+---
+
+Using data:
+
+```{r, message=FALSE}
+library(downloader) 
+url <- "https://raw.githubusercontent.com/Kolpashnikova/project2/master/pricesscrapedcopy.csv"
+filename <- basename(url)
+download(url, destfile=filename)
+pr <- read.csv(filename,header = T)
+pr$date2<-as.Date(pr$date2)
+
+require(ggplot2)
+
+ggplot(pr, aes(x = date2, y = ch))+ geom_point(aes(color=factor(type_vec)))+ geom_smooth(method = "lm", se = TRUE)
+
+sub_all <- subset(pr, type_vec=="All Properties")
+sub_1 <- subset(pr, type_vec=="1 Bedroom Properties")
+sub_2 <- subset(pr, type_vec=="2 Bedroom Properties")
+sub_3 <- subset(pr, type_vec=="3 Bedroom Properties")
+sub_4 <- subset(pr, type_vec=="4 Bedroom Properties")
+sub_5 <- subset(pr, type_vec=="5 Bedroom Properties")
+sub_6 <- subset(pr, type_vec=="6 Bedroom Properties")
+sub_7 <- subset(pr, type_vec=="7 Bedroom Properties")
+sub_8 <- subset(pr, type_vec=="8 Bedroom Properties")
+sub_9 <- subset(pr, type_vec=="9 Bedroom Properties")
+sub_10 <- subset(pr, type_vec=="10 Bedroom Properties")
+sub_11 <- subset(pr, type_vec=="11 Bedroom Properties")
+sub_12 <- subset(pr, type_vec=="12 Bedroom Properties")
+sub_13 <- subset(pr, type_vec=="13 Bedroom Properties")
+
+list<-rownames(as.matrix(table(pr$type_vec)))
+myf3<-function(sub){
+    pl<-ggplot(sub, aes(x = date2, y = ch))+ geom_point(aes(color=factor(zipcode)))+ geom_smooth(method = "lm", se = TRUE)
+    return(pl)
+}
+
+par(mfrow=c(1,1))
+myf3(sub_all)
+myf3(sub_1)
+myf3(sub_2)
+myf3(sub_3)
+myf3(sub_4)
+myf3(sub_5)
+myf3(sub_6)
+myf3(sub_7)
+myf3(sub_8)
+myf3(sub_9)
+```
+
