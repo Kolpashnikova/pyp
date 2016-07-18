@@ -1,0 +1,25 @@
+# Housing Crisis
+
+Just like anyone in Vancouver, I care about housing prices. The graphs like the one below is something we all fear - the precipitate price increase.
+
+<img src="dash2.png" height="500" width="500">
+
+But every crisis hides an opportunity - a truth I realized having to disassemble and blow-dry my travel laptop having spilt a Grande Americano into it :+1 two days ago here in Seoul where I am for a conference – it is a good investment for those who plan to sell back the property in the near future. But not all property has the same returns. Thus, every dollar for a 1 bedroom property brought 6.1 cents, on average, each year from 2009 to 2014, and might have meant approximately a 170K return for someone who bought an apartment for half a million in 2009 and sold it in 2014. Conversely, 6-bedroom properties brought a return of 4.5 cents to every dollar each year in the same period. Visually, these can be represented in the Fig. 2.
+
+<img src="dash3.png" height="500" width="500">
+
+It is also worth noting that there will be more variety in luxuriousness of bigger apartments than among smaller ones (Fig. 3 – for 2 bedroom apartments, Fig. 4 – for 5 bedroom apartments). This is good news for predicting prices for properties with fewer bedrooms!
+
+<img src="004.png" height="500" width="500">
+<img src="003.png" height="500" width="500">
+
+Likewise, some neighborhoods will sport starker inequalities reflected in variance vs median/mean prices of the properties sold within as illustrated in Fig. 5 below.
+
+<img src="005.png" height="500" width="500">
+
+Moreover, when buying a property, it might be a good idea to take other factors into consideration such as because property tax assessment is a predominantly historic and precedential process, properties of the similar prices can be assessed differently depending on a zip code. Fig. 6, for instance, shows that event though you might pay the same amount of money when buying your 1 bedroom property in SF, you might pay more taxes in zip code 94104 even though saving by buying all of the knick-knacks in the local Daiso.
+
+<img src="dash1.png" height="500" width="500">
+
+
+
