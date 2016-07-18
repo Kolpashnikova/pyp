@@ -1,6 +1,6 @@
 # Housing Crisis
 
-Living in Vancouver makes one very sensitive to the issue of housing. Just like Vancouver, many cities along the West Coast face similar issues, San Francisco among those. The graphs in Fig. 1 below embodies our fear - the precipitate housing price increase.
+Living in Vancouver makes one very sensitive to the issue of housing. Just like Vancouver, many cities along the West Coast face similar trends, San Francisco among the fortunate. The graphs in Fig. 1 below embodies our fear - the precipitate housing price increase.
 
 <img src="dash2.png" height="500" width="500">
 
