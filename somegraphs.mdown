@@ -1,10 +1,10 @@
 # Housing Crisis
 
-Just like anyone in Vancouver, I care about housing prices. The graphs like the one below is something we all fear - the precipitate price increase.
+Living in Vancouver makes one very sensitive to the issue of housing crisis. Just like Vancouver, many cities along the West Coast face similar issues, San Francisco among those. The graphs in Fig. 1 below embodies our fear - the precipitate housing price increase.
 
 <img src="dash2.png" height="500" width="500">
 
-But every crisis hides an opportunity - a truth I realized having to disassemble and blow-dry my travel laptop having spilt a Grande Americano into it :+1 two days ago here in Seoul where I am for a conference – it is a good investment for those who plan to sell back the property in the near future. But not all property has the same returns. Thus, every dollar for a 1 bedroom property brought 6.1 cents, on average, each year from 2009 to 2014, and might have meant approximately a 170K return for someone who bought an apartment for half a million in 2009 and sold it in 2014. Conversely, 6-bedroom properties brought a return of 4.5 cents to every dollar each year in the same period. Visually, these can be represented in the Fig. 2.
+But every crisis hides an opportunity - a truth I realized having to disassemble and blow-dry my travel laptop having spilt a Grande Americano into it :+1: two days ago here in Seoul where I am for a conference – it is a good investment for those who plan to sell back the property in the near future. But not all property has the same returns. Thus, every dollar for a 1 bedroom property brought 6.1 cents, on average, each year from 2009 to 2014, and might have meant approximately a 170K return for someone who bought an apartment for half a million in 2009 and sold it in 2014. Conversely, 6-bedroom properties brought a return of 4.5 cents to every dollar each year in the same period. Visually, these can be represented in the Fig. 2.
 
 <img src="dash3.png" height="500" width="500">
 
